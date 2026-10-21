@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 80%;
+            height: auto;
+        }
+        tr,
+        td,
+        th {
+            border: 1px solid black;
+        }
+        thead {
+            background-color: rgb(8, 0, 24);
+            color: white;
+            font-size: large;
+        }
+        tfoot {
+            background-color: #054a4d9d;
+            color: white;
+            font-size: large;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" id="header-id">ID</th>
+                <th scope="col" name="header-name">NAME</th>
+                <th scope="col" sex="header-sex">SEX</th>
+                <th scope="col"bon="header-bon">BoN</th>
+                <th scope="col" addres="header-address">ADDRESS</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td scope="col" id="header-id">OO11169</td>
+                <td scope="col" name="header-name">Raksmey</td>
+                <td scope="col" sex="header-sex">F</td>
+                <td scope="col"bon="header-bon">06-november-2008</td>
+                <td scope="col" addres="header-address">kompot</td>
+            </tr>
+            <tr><td scope="col" id="header-id">0010991</td>
+                <td scope="col" name="header-name">thyda</td>
+                <td scope="col" sex="header-sex">F</td>
+                <td scope="col"bon="header-bon">17-october-2008</td>
+                <td scope="col" addres="header-address">Phnom Penh</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th scope="row">
+                <td>Total</td>
+                <td>2 ID</td>
+                <td>2  Name</td>
+            </th>
+        </tfoot>
+    </table>
+</body>
+</html>
